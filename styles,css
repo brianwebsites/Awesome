@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.acrox-tab {
+  border: 1px solid #101010;
+  box-sizing: border-box;
+  font-family: Fira Sans;
+  font-size: 13px;
+  margin: auto;
+  padding: 60px;
+  width: 500px;
+  color: #acacac;
+}
+.acrox-tab > br {
+  display: none;
+}
+.acrox-tab .a-title {
+  font-family: Oswald;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+.acrox-tab .a-subtitle {
+  font: 200 7px "Fira Sans";
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.acrox-tab .a-subtitle:after {
+  content: "";
+  font-family: "Honeybee";
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.acrox-tab .a-text {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 135%;
+}
+.acrox-tab .a-text u {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ccc;
+}
+.acrox-tab .a-info {
+  box-sizing: border-box;
+  padding: 25px;
+  border: 1px solid #101010;
+  font: 200 11px "Arial";
+}
+.acrox-tab .center {
+  text-align: center;
+}
+
+.gabe .a-subtitle strong {
+  color: #5F9EA0;
+}
+.gabe .a-subtitle:after {
+  color: #5F9EA0;
+}
+.gabe .a-text strong {
+  color: #5F9EA0;
+}
+.gabe .a-info {
+  border-left-color: #5F9EA0;
+}
+.gabe .a-info strong {
+  color: #5F9EA0;
+}
+.gabe .combateinner span {
+  display: none;
+}
