@@ -27,6 +27,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 5px;
+  color: #bbbbbb;
 }
 .acrox-tab .a-subtitle:after {
   content: "";
