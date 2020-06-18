@@ -1,0 +1,67 @@
+.gab-sig {
+  width: 300px;
+  height: 230px;
+  background-image: url(https://i.imgur.com/sj5l4rt.png);
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  border: 5px solid #111;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+.gab-sig:hover {
+  background-position: -300px 0;
+}
+.gab-sig:hover span {
+  margin-top: -39px;
+}
+
+.gab-txt {
+  height: 38px;
+  overflow: hidden;
+  background: #75553d;
+  color: #fff;
+  font: 8px Calibri;
+  text-align: right;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 8px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.gab-txt span {
+  width: 30px;
+  font: bold 30px Arial;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  margin-left: 4px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  margin-top: 42px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.gab-txt span iframe {
+  height: 30px;
+  margin: 10px 0 0 3px;
+}

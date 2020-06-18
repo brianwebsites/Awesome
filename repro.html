@@ -1,0 +1,17 @@
+<style>#playAudio2 {position: relative; width: 25px;cursor: pointer} body{margin: 0}</style>
+<audio id="testAudio2" hidden><source src="Kiss.mp3" type="audio/mpeg"/></audio><img src="play.svg" id="playAudio2"/>
+<script>
+document.getElementById("playAudio2").addEventListener("click", function(){
+    var audio = document.getElementById('testAudio2');
+    audio.volume = 1;
+  if(this.className == 'is-playing'){
+    this.className = "";
+    this.setAttribute("src", "play.svg");
+    audio.pause();
+  }else{
+    this.className = "is-playing";
+    this.setAttribute("src", "pause.svg");
+    audio.play();
+  }
+});
+</script>
