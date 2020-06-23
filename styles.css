@@ -58,22 +58,18 @@
 .acrox-tab .center {
   text-align: center;
 }
-
-.gabe .a-subtitle strong {
-  color: #5F9EA0;
+.gabe .combateinner span {
+  display: none;
 }
-.gabe .a-subtitle:after {
-  color: #5F9EA0;
-}
-.gabe .a-text strong {
+.gabe .a-subtitle strong, .gabe .a-info strong, .gabe .a-text strong, .gabe .a-subtitle:after {
   color: #5F9EA0;
 }
 .gabe .a-info {
   border-left-color: #5F9EA0;
 }
-.gabe .a-info strong {
-  color: #5F9EA0;
+.hester .a-subtitle strong, .hester .a-info strong, .hester .a-text strong, .hester .a-subtitle:after {
+  color: #764337;
 }
-.gabe .combateinner span {
-  display: none;
+.hester .a-info {
+  border-left-color: #764337;
 }
