@@ -58,7 +58,7 @@
 .acrox-tab .center {
   text-align: center;
 }
-.gabe .combateinner span {
+.gabe .combateinner span, .matt .combateinner span {
   display: none;
 }
 .gabe .a-subtitle strong, .gabe .a-info strong, .gabe .a-text strong, .gabe .a-subtitle:after {
@@ -67,9 +67,19 @@
 .gabe .a-info {
   border-left-color: #5F9EA0;
 }
+
+/*Hester*/
 .hester .a-subtitle strong, .hester .a-info strong, .hester .a-text strong, .hester .a-subtitle:after {
   color: #764337;
 }
 .hester .a-info {
   border-left-color: #764337;
+}
+
+/*Ezekiel*/
+.eze .a-subtitle strong, .eze .a-info strong, .eze .a-text strong, .eze .a-subtitle:after {
+  color: #dc143c;
+}
+.eze .a-info {
+  border-left-color: #dc143c;
 }
