@@ -76,10 +76,10 @@
   border-left-color: #764337;
 }
 
-/*Ezekiel*/
-.eze .a-subtitle strong, .eze .a-info strong, .eze .a-text strong, .eze .a-subtitle:after {
+/*Sean*/
+.sean .a-subtitle strong, .sean .a-info strong, .sean .a-text strong, .sean .a-subtitle:after {
   color: #dc143c;
 }
-.eze .a-info {
+.sean .a-info {
   border-left-color: #dc143c;
 }
