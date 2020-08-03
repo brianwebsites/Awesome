@@ -83,3 +83,67 @@
 .sean .a-info {
   border-left-color: #dc143c;
 }
+
+/*Matt*/
+.matt .a-subtitle strong, .matt .a-info strong, .matt .a-text strong, .matt .a-subtitle:after {
+  color: #902825;
+}
+.matt .a-info {
+  border-left-color: #902825;
+}
+
+
+/*Firmas*/
+.pro-sig {
+  width: 280px;
+  height: 180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  box-sizing: border-box;
+  padding: 0 40px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #111;
+}
+.pro-sig:hover {
+  background-position: 0 -60px;
+}
+.pro-sig:hover span {
+  top: -30px;
+}
+.pro-sig:hover .imgs {
+  top: calc(100% - 60px);
+}
+.pro-sig strong {
+  display: block;
+  font: bold 64px "Arial";
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 80%;
+}
+.pro-sig span {
+  font: 7px "Calibri";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: justify;
+  position: relative;
+  top: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.pro-sig .imgs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
