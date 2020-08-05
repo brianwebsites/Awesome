@@ -67,7 +67,7 @@
 .gabe .a-subtitle strong, .gabe .a-info strong, .gabe .a-text strong, .gabe .a-title strong, .gabe .a-subtitle:after {
   color: #5F9EA0;
 }
-.gabe .a-info {
+.gabe .a-info, .gabe blockquote {
   border-left-color: #5F9EA0;
 }
 
@@ -75,7 +75,7 @@
 .hester .a-subtitle strong, .hester .a-info strong, .hester .a-text strong, .hester .a-title strong, .hester .a-subtitle:after {
   color: #764337;
 }
-.hester .a-info {
+.hester .a-info, .hester blockquote {
   border-left-color: #764337;
 }
 
@@ -83,7 +83,7 @@
 .sean .a-subtitle strong, .sean .a-info strong, .sean .a-text strong, .sean .a-title strong, .sean .a-subtitle:after {
   color: #981e34;
 }
-.sean .a-info {
+.sean .a-info, .sean blockquote {
   border-left-color: #981e34;
 }
 
@@ -91,7 +91,7 @@
 .matt .a-subtitle strong, .matt .a-info strong, .matt .a-text strong, .matt .a-title strong, .matt .a-subtitle:after {
   color: #8e7265;
 }
-.matt .a-info {
+.matt .a-info, .matt blockquote {
   border-left-color: #8e7265;
 }
 
