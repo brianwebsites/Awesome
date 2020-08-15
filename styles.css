@@ -89,10 +89,10 @@
 
 /*Matt*/
 .matt .a-subtitle strong, .matt .a-info strong, .matt .a-text strong, .matt .a-title strong, .matt .a-subtitle:after {
-  color: #8e7265;
+  color: #80665b;
 }
 .matt .a-info, .matt blockquote {
-  border-left-color: #8e7265;
+  border-left-color: #80665b;
 }
 
 
