@@ -151,6 +151,59 @@
   transition: 0.3s;
 }
 
+.gabe-sig {
+  width: 280px;
+  height: 180px;
+  background: url(https://i.imgur.com/E6HYcSY.jpg);
+  margin: 0 auto;
+  border-top: 5px solid #233132;
+  border-bottom: 5px solid #233132;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.gabe-sig:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.gabe-sig [class^="gabe-t"] {
+  position: relative;
+  z-index: 1;
+  font-family: "Arial";
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100%;
+}
+.gabe-sig .gabe-tit {
+  font-size: 30px;
+  font-weight: bold;
+}
+.gabe-sig .gabe-txt {
+  font-size: 6px;
+  letter-spacing: 0.3em;
+}
+.gabe-sig hrr {
+  width: 50%;
+  height: 5px;
+  background: #a5d6d9;
+  margin-top: 5px;
+}
+
 .sean-sig {
   width: 250px;
   height: 180px;
