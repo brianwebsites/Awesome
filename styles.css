@@ -216,6 +216,7 @@
 }
 .gabe-sig .gabe-txt {
   font-size: 6px;
+  font-weight: 400;
   letter-spacing: 0.3em;
   -webkit-transition: 0.4s;
   transition: 0.4s;
