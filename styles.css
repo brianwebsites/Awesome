@@ -303,12 +303,11 @@
 .matt-sig {
   width: 280px;
   height: 190px;
-  background: url(https://i.imgur.com/wJgzsI7.jpg) center/cover;
-  background: url(https://i.imgur.com/US2im1G.jpg) center/cover;
+  background: url(https://i.imgur.com/kf4DDud.jpg) center/cover;
   margin: 0 auto;
   position: relative;
-  border-top: 4px solid #a18447;
-  border-bottom: 4px solid #a18447;
+  border-top: 4px solid #8e755c;
+  border-bottom: 4px solid #8e755c;
   text-align: center;
   text-transform: uppercase;
   display: -webkit-box;
@@ -332,8 +331,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(161, 132, 71, 0)), color-stop(61%, rgba(161, 132, 71, 0)), to(rgba(161, 132, 71, 0.7)));
-  background: linear-gradient(180deg, rgba(161, 132, 71, 0) 0%, rgba(161, 132, 71, 0) 61%, rgba(161, 132, 71, 0.7) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(142, 117, 92, 0)), color-stop(61%, rgba(142, 117, 92, 0)), to(rgba(142, 117, 92, 0.7)));
+  background: linear-gradient(180deg, rgba(142, 117, 92, 0) 0%, rgba(142, 117, 92, 0) 61%, rgba(142, 117, 92, .7) 100%)
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -342,7 +341,7 @@
   font-family: "LeviBrush";
   font-size: 24px;
   line-height: 95%;
-  color: #efc040;
+  color: #bba48c;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   position: relative;
   z-index: 1;
