@@ -74,9 +74,17 @@
 
 /*Hester*/
 .hester .a-subtitle strong, .hester .a-info strong, .hester .a-text strong, .hester .a-title strong, .hester .a-subtitle:after {
-  color: #764337;
+  color: #9e4141;
 }
 .hester .a-info, .hester blockquote {
+  border-left-color: #9e4141;
+}
+
+/*Abel*/
+.abel .a-subtitle strong, .abel .a-info strong, .abel .a-text strong, .abel .a-title strong, .abel .a-subtitle:after {
+  color: #764337;
+}
+.abel .a-info, .abel blockquote {
   border-left-color: #764337;
 }
 
