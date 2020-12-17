@@ -162,98 +162,78 @@
 }
 
 .gabe-sig {
-  width: 280px;
+  width: 300px;
   height: 180px;
-  background: url(https://i.imgur.com/E6HYcSY.jpg);
+  background: url(https://i.imgur.com/A6gucKt.png);
   margin: 0 auto;
-  border-top: 5px solid #233132;
-  border-bottom: 5px solid #233132;
-  position: relative;
+  border-top: 3px solid #5b3a24;
+  border-bottom: 3px solid #5b3a24;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  color: white;
-  box-sizing: border-box;
-  padding: 20px;
-  overflow: hidden;
-}
-.gabe-sig:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 0;
-  right: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
-}
-.gabe-sig:hover:after {
-  background: transparent;
-  -webkit-transition-delay: 0.7s;
-          transition-delay: 0.7s;
-}
-.gabe-sig [class^="gabe-t"] {
-  position: relative;
-  z-index: 1;
-  font-family: "Arial";
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
+}
+
+.gabe-ovo {
+  width: 100px;
+  height: 100px;
+  background: url(https://i.imgur.com/DWrFIsG.png) center no-repeat;
+  margin-right: 10px;
+  border-radius: 50%;
+  position: relative;
+  border: 2px solid #333a40;
+}
+.gabe-ovo:after {
+  content: "";
+  position: absolute;
+  padding: 6px;
+  top: -11px;
+  left: -11px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid #333a40;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  -webkit-animation: gabe-ani 4s linear infinite;
+          animation: gabe-ani 4s linear infinite;
+}
+
+.gabe-tit {
+  width: 140px;
+  font: 30px "Oswald";
+  color: #acb3b9;
+  text-shadow: 2px 2px 0px black;
   line-height: 100%;
 }
-.gabe-sig .gabe-tit {
-  font-size: 30px;
-  font-weight: bold;
-  left: 0;
-  top: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+
+.gabe-txt {
+  width: 140px;
+  font: 8px "Calibri";
+  color: #a3a3a3;
+  letter-spacing: 1px;
+  line-height: 100%;
+  text-shadow: 1px 1px 0px black;
+  padding-top: 5px;
 }
-.gabe-sig:hover .gabe-tit {
-  left: 120%;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+
+@-webkit-keyframes gabe-ani {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
-.gabe-sig .gabe-txt {
-  font-size: 6px;
-  font-weight: 400;
-  letter-spacing: 0.3em;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  right: 0;
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
-}
-.gabe-sig:hover .gabe-txt {
-  right: 120%;
-  -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
-}
-.gabe-sig hrr {
-  width: 50%;
-  height: 5px;
-  background: #233132;
-  margin-top: 5px;
-  z-index: 1;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  right: 0;
-  position: relative;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
-}
-.gabe-sig:hover hrr {
-  right: 120%;
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+
+@keyframes gabe-ani {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .sean-sig {
