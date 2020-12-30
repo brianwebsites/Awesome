@@ -289,8 +289,8 @@
 }
 
 .matt-sig {
-  width: 302px;
-  height: 202px;
+  width: 270px;
+  height: 180px;
   background: url(https://i.imgur.com/3FCk2Y4.jpg) center/cover;
   margin: 0 auto;
   text-transform: uppercase;
@@ -303,7 +303,7 @@
   padding: 0 50px;
   text-align: justify;
   overflow: hidden;
-  outline: 7px solid #222;
+  outline: 5px solid #222;
   position: relative;
   border: 1px solid #a18c6b;
 }
@@ -328,9 +328,9 @@
 }
 
 .matt-tit {
-  font: 800 34px Arial;
+  font: 800 29px Arial;
   line-height: 80%;
-  margin: 150px 0 5px;
+  margin: 140px 0 5px;
   position: relative;
   z-index: 1;
   transition: 0.3s;
@@ -341,7 +341,7 @@
 
 .matt-txt {
   opacity: 0;
-  font: 400 8px Calibri;
+  font: 400 5.5pt Calibri;
   letter-spacing: 1px;
   line-height: 100%;
   position: relative;
