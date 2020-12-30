@@ -289,57 +289,63 @@
 }
 
 .matt-sig {
-  width: 280px;
-  height: 190px;
-  background: url(https://i.imgur.com/kf4DDud.jpg) center/cover;
+  width: 302px;
+  height: 202px;
+  background: url(https://i.imgur.com/3FCk2Y4.jpg) center/cover;
   margin: 0 auto;
-  position: relative;
-  border-top: 4px solid #8e755c;
-  border-bottom: 4px solid #8e755c;
-  text-align: center;
   text-transform: uppercase;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
   box-sizing: border-box;
-  padding: 7px 30px;
+  padding: 0 50px;
+  text-align: justify;
   overflow: hidden;
+  outline: 7px solid #222;
+  position: relative;
+  border: 1px solid #a18c6b;
 }
-.matt-sig:hover .matt-grad {
-  top: 100px;
-}
-
-.matt-grad {
-  position: absolute;
+.matt-sig:after {
+  content: "";
   width: 100%;
   height: 100%;
-  top: 0;
+  background: rgba(25, 25, 25, 0.65);
+  position: absolute;
+  left: 100%;
+  transition: 0.3s;
+}
+.matt-sig:hover:after {
   left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(142, 117, 92, 0)), color-stop(61%, rgba(142, 117, 92, 0)), to(rgba(142, 117, 92, 0.7)));
-  background: linear-gradient(180deg, rgba(142, 117, 92, 0) 0%, rgba(142, 117, 92, 0) 61%, rgba(142, 117, 92, .7) 100%)
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+}
+.matt-sig:hover .matt-tit {
+  margin-top: 0;
+}
+.matt-sig:hover .matt-txt {
+  opacity: 1;
+  transition-delay: 0.7s;
 }
 
 .matt-tit {
-  font-family: "LeviBrush";
-  font-size: 24px;
-  line-height: 95%;
-  color: #bba48c;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font: 800 34px Arial;
+  line-height: 80%;
+  margin: 150px 0 5px;
   position: relative;
   z-index: 1;
+  transition: 0.3s;
+  transition-delay: 0.3s;
+  border-left: 6px solid #a18c6b;
+  padding-left: 7px;
 }
 
 .matt-txt {
-  font: 5.5px "Arial";
-  color: white;
+  opacity: 0;
+  font: 400 8px Calibri;
   letter-spacing: 1px;
+  line-height: 100%;
   position: relative;
   z-index: 1;
-  text-shadow: 1px 1px 1px black;
+  transition: 0.3s;
+  transition-delay: 0;
 }
