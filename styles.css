@@ -162,80 +162,45 @@
   transition: 0.3s;
 }
 
-.gabe-sig {
-  width: 300px;
-  height: 180px;
-  background: url(https://i.imgur.com/A6gucKt.png);
-  margin: 0 auto;
-  border-top: 4px solid #102015;
-  border-bottom: 4px solid #102015;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  text-transform: uppercase;
-  text-align: right;
-}
+/*Gabriel*/
 
-.gabe-ovo {
-  width: 100px;
-  height: 100px;
-  background: url(https://i.imgur.com/DWrFIsG.png) center no-repeat;
-  margin-right: 10px;
-  border-radius: 50%;
-  position: relative;
-  border: 2px solid #333a40;
-}
-.gabe-ovo:after {
-  content: "";
-  position: absolute;
-  padding: 6px;
-  top: -11px;
-  left: -11px;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border-top: 5px solid #333a40;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid transparent;
-  -webkit-animation: gabe-ani 4s linear infinite;
-          animation: gabe-ani 4s linear infinite;
+.gabe-sig {
+  background: url(https://i.imgur.com/lARnMPF.gif);
+  margin: 0 auto;
+  width: 320px;
+  height: 173px;
+  border-top: 4px solid #0d5239;
+  border-bottom: 4px solid #0d5239;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 25px;
 }
 
 .gabe-tit {
-  width: 140px;
-  font: 30px "Oswald";
-  color: #acb3b9;
-  text-shadow: 2px 2px 0px black;
-  line-height: 100%;
+  width: 115px;
+  font: 900 33px "Arial";
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  line-height: 90%;
 }
 
 .gabe-txt {
-  width: 140px;
-  font: 8px "Calibri";
-  color: #a3a3a3;
-  letter-spacing: 1px;
-  line-height: 100%;
-  text-shadow: 1px 1px 0px black;
-  padding-top: 5px;
+  width: 115px;
+  font: 400 7px "Arial";
+  text-transform: uppercase;
+  color: #ccc;
+  letter-spacing: 2px;
+  text-align: justify;
+  border-top: 4px solid #0d5239;
+  padding-top: 6px;
+  margin-top: 6px;
 }
 
-@-webkit-keyframes gabe-ani {
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes gabe-ani {
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
+/*Sean*/
 
 .sean-sig {
   width: 280px;
