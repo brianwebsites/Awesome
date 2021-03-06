@@ -176,12 +176,12 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .gabe-tit {
-  width: 115px;
-  font: 900 32px "Arial";
+  width: 100px;
+  font: 900 29px "Arial";
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke-width: 0.5px;
@@ -190,7 +190,7 @@
 }
 
 .gabe-txt {
-  width: 115px;
+  width: 100px;
   font: 400 7px "Arial";
   text-transform: uppercase;
   color: #ccc;
