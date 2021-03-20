@@ -3,6 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+::root {
+  --gabe: #4b7c7d;
+  --matt: #80665b;
+  --abel: #981e34;
+  --uri: #4f4a94;
+  --sean: #981e34;
+  --hester: #764337;
+}
+
 .acrox-tab {
   border: 1px solid #101010;
   box-sizing: border-box;
@@ -67,43 +76,50 @@
 .a-title strong {
   font-weight: 400
 }
+
+/*Gabe*/
 .gabe .a-subtitle strong, .gabe .a-info strong, .gabe .a-text strong, .gabe .a-title strong, .gabe .a-subtitle:after {
-  color: #5F9EA0;
+  color: var(--gabe);
 }
 .gabe .a-info, .gabe blockquote {
-  border-left-color: #5F9EA0;
+  border-left-color: var(--gabe);
 }
 
 /*Hester*/
 .hester .a-subtitle strong, .hester .a-info strong, .hester .a-text strong, .hester .a-title strong, .hester .a-subtitle:after {
-  color: #764337;
+  color: var(--hester);
 }
 .hester .a-info, .hester blockquote {
-  border-left-color: #764337;
+  border-left-color: var(--hester);
 }
 
 /*Abel*/
 .abel .a-subtitle strong, .abel .a-info strong, .abel .a-text strong, .abel .a-title strong, .abel .a-subtitle:after {
-  color: #9e4141;
+  color: color: var(--abel);
 }
 .abel .a-info, .abel blockquote {
-  border-left-color: #9e4141;
+  border-left-color: color: var(--abel);
 }
 
 /*Sean*/
 .sean .a-subtitle strong, .sean .a-info strong, .sean .a-text strong, .sean .a-title strong, .sean .a-subtitle:after {
-  color: #981e34;
+  color: var(--sean);
 }
 .sean .a-info, .sean blockquote {
-  border-left-color: #981e34;
+  border-left-color: var(--sean);
 }
 
 /*Matt*/
 .matt .a-subtitle strong, .matt .a-info strong, .matt .a-text strong, .matt .a-title strong, .matt .a-subtitle:after {
-  color: #80665b;
+  color: var(--matt);
 }
 .matt .a-info, .matt blockquote {
-  border-left-color: #80665b;
+  border-left-color: var(--matt);
+}
+
+/*CC*/
+.gabe .combateinner span[class^="ea-"], .matt .combateinner span[class^="ea-"], .sean .combateinner span[class^="ea-"] {
+  display: inline;
 }
 
 
