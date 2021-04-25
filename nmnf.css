@@ -1,0 +1,62 @@
+.dam-sig {
+  width: 302px;
+  height: 202px;
+  background: url(https://i.imgur.com/mawHoHp.jpg);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 15px;
+  outline: 6px solid #1f1f1f;
+  border: 1px solid #859f37;
+  position: relative;
+}
+.dam-sig:hover {
+  border-color: #bbb;
+}
+.dam-sig:hover .dam-fon {
+  opacity: 1;
+}
+.dam-sig:hover lin {
+  background: #1f1f1f !important;
+}
+.dam-sig .dam-fon {
+  width: 100%;
+  height: 100%;
+  background: url(https://i.imgur.com/Hgikdn6.gif);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.6s;
+}
+.dam-sig .dam-txt {
+  text-transform: uppercase;
+  font: bold 5.5pt "Arial";
+  width: 50%;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+.dam-sig .dam-txt span {
+  font: 800 27px "Arial";
+  line-height: 95%;
+  display: block;
+  margin-bottom: 3px;
+  letter-spacing: 0;
+}
+.dam-sig .dam-txt lin {
+  width: 78%;
+  height: 3px;
+  background: #6f852e;
+  display: block;
+  margin-bottom: 3px;
+  transition: 0.6s;
+}
