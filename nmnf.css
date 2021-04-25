@@ -11,6 +11,7 @@
   outline: 6px solid #1f1f1f;
   border: 1px solid #859f37;
   position: relative;
+  transition: 0.6s;
 }
 .dam-sig:hover {
   border-color: #bbb;
